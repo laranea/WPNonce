@@ -1,0 +1,35 @@
+{
+  "name": "Laranea/WPNonce",
+  "description": "",
+  "type": "package",
+  "license": "GPL",
+  "authors": [
+    {
+      "name": "Kristof Leroux",
+      "email": "kristof.leroux@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require":
+  {
+    "php": ">=5.5.0"
+  },
+  "require-dev":
+  {
+    "phpunit/phpunit": "~4.8"
+  },
+  "autoload":
+  {
+    "psr-4":
+    {
+      "Laranea\\WPNonce\\": "src/Laranea/WPNonce"
+    }
+  },
+  "autoload-dev":
+  {
+    "psr-4":
+    {
+      "Laranea\\WPNonce\\Tests\\": "tests/src/"
+    }
+  }
+}
